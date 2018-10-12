@@ -17,8 +17,8 @@ phases:
     commands:
     - echo Logging in to Amazon ECR....
     - aws --version
-    - aws ecr get-login --region eu-central-1 --no-include-email
-    - REPOSITORY_URI=757250003982.dkr.ecr.eu-central-1.amazonaws.com/mydockerrepo
+    - aws ecr get-login --region us-east-2 --no-include-email
+    - REPOSITORY_URI=334717191664.dkr.ecr.us-east-2.amazonaws.com/mydockerrepo
     - IMAGE_TAG=latest
   build:
     commands:
